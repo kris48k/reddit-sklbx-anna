@@ -1,0 +1,29 @@
+.commentContainer {
+  padding-left: 20px;
+  width: 100%;
+}
+
+.commentAboutInfo {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.commentText {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.createdAt, .createdAt span {
+  color: var(--grey99);
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.liga {
+  padding: 2px 7px ;
+  background-color: var(--greyD9);;
+}

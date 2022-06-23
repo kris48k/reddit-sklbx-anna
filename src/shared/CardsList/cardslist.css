@@ -1,0 +1,11 @@
+.btnLoad {
+  padding: 5px 10px;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+@media all and (min-width: 1024px) {
+  .cardsList {
+    padding: 40px 0;
+  }
+}

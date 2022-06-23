@@ -1,0 +1,53 @@
+.menuItemsList {
+  padding: 0 20px;
+  z-index: 10;
+}
+
+.menuItem {
+  padding: 12px 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.menuItem > svg + span {
+  margin-left: 7px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--greyEC);
+}
+
+.closeButton {
+  background-color: var(--greyD9);
+  padding: 12px 23px;
+  border-radius: 0 0 3px 3px;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+ }
+
+
+@media all and (min-width: 320px) {
+  .modal {
+    display: flex;
+   }
+}
+
+@media all and (min-width: 1540px) {
+  .closeButton {
+    display: none;
+  }
+
+  .menuItemsList {
+    padding: 7px 20px;
+  }
+
+  .menuItem {
+    padding: 7px 0px;
+  }
+}
+

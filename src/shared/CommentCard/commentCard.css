@@ -1,0 +1,23 @@
+.commentCard {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-top: 30px;
+}
+
+.commentBtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+}
+
+.down {
+  transform: rotate(180deg);
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 3px;
+  height: 100%;
+  background-color: var(--greyEC);
+}
